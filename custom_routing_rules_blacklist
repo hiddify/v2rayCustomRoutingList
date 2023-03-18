@@ -19,9 +19,7 @@
 		"port": "",
 		"outboundTag": "proxy",
 		"domain": [
-			"geosite:tld-!cn",
-			"geosite:gfw",
-			"geosite:greatfire"
+			"geosite:tld-!ir"
 		]
 	},
 	{
@@ -57,11 +55,8 @@
 		"port": "",
 		"outboundTag": "proxy",
 		"ip": [
-		      "geoip:cloudflare",
-		      "geoip:cloudfront",
 		      "geoip:facebook",
 		      "geoip:fastly",
-		      "geoip:google",
 		      "geoip:netflix",
 		      "geoip:telegram",
 		      "geoip:twitter",
@@ -81,7 +76,6 @@
 			"geoip:il",
 			"geoip:in",
 			"geoip:iq",
-			"geoip:ir",
 			"geoip:it",
 			"geoip:jp",
 			"geoip:kr",

@@ -20,14 +20,16 @@
       "geosite:private",
       "geosite:apple@cn",
       "geosite:google@cn",
-      "geosite:tld-cn"
+      "geosite:tld-cn",
+      "geosite:tld-ir",
+      "domain:ir"
     ]
   },
   {
     "type": "field",
     "outboundTag": "proxy",
     "domain": [
-      "geosite:geolocation-!cn"
+      "geosite:geolocation-!ir"
     ]
   },
   {
@@ -35,10 +37,12 @@
     "outboundTag": "direct",
     "ip": [
       "geoip:private",
-      "geoip:cn"
+      "geoip:cn",
+      "geoip:ir"
     ],
     "domain": [
-      "geosite:cn"
+      "geosite:cn",
+      "domain:ir"
     ]
   },
   {
